@@ -7,7 +7,9 @@ To Add a dynamic year in the footer copyright section use this mobile under Syst
 **{var date_Y}}** use this text instead if year .
 Ex : © {{var date_Y}} AllDay. All Rights Reserved
 
-=====================
+
+
+
 How to Use 
 =====================
 Go to Content >> Design >> configuration > [ Select Theme ] > Click Edit > Footer > Copyright
