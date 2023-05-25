@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @category NG
+ * @package  NG_CopyRightFooter
+ * @license  Proprietary
+ *
+ * @author   Nirali Gajera <niraligajera8@gmail.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\App\Config\ScopeConfigInterface">
+        <plugin name="custom_override_plugin" type="NG\CopyRightFooter\Plugin\Footer\AppConfigPlugin" sortOrder="1" disabled="false"/>
+    </type>
+</config>
